@@ -30,9 +30,9 @@
 <body>
 <div class="menubar">
     <ul class="nav nav-tabs">
-  <li role="presentation" class="active"><a href="#">Home</a></li>
-  <li role="presentation"><a href="aboutUs.jsp">About Us</a></li>
-  <li role="presentation"><a href="Login.jsp">Login</a></li>
+  <li role="presentation" class="active"><a href="Home">Home</a></li>
+  <li role="presentation"><a href="about">About Us</a></li>
+  <li role="presentation"><a href="Login">Login</a></li>
 </ul>
 </div>
 <div class="container">
@@ -70,7 +70,7 @@
     </div>
     <div class="col-xs-4">
       <a href="description.jsp" class="thumbnail">
-        <img src="http://placehold.it/300x150" alt="img1"/>
+        <img src="resources/Images/Guitar.png" alt="img1"/>
       </a>
     </div>
     <div class="col-xs-4">
