@@ -22,11 +22,8 @@ public class HomeController {
 	 public ModelAndView Description() {
 		ProductDAO product=new ProductDAOImpl();
 		Gson gson = new Gson();
-	    String json = gson.toJson(product.getProducts());
-	    ModelAndView modelAndView = new ModelAndView("Description", "Products",product.getProducts());
-	    modelAndView.addObject("data",json);
-	    System.out.print("Description");
-	    return modelAndView;  
+		System.out.print("Description");
+		return new ModelAndView("Description", "data",gson.toJson(product.getProducts()));
 	 }
 	@RequestMapping("/Login")
 	 public ModelAndView Login() {  
