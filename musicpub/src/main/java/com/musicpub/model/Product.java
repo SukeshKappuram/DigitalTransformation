@@ -3,10 +3,11 @@ package com.musicpub.model;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "Product")
+@Table(name = "Products")
 public class Product {
 	
-	@Id @GeneratedValue
+	@Id 
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name = "productId")
 	private int productId;
 	
