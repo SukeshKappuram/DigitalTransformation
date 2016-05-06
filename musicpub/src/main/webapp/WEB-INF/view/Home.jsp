@@ -5,9 +5,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Music Pub</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="<c:url value="/resources/css/bootstrap.min.css" />" >
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  	<script src="<c:url value="/resources/js/bootstrap.min.js" />" ></script>
   	<style>
   		.carousel-inner > .item > img,
   		.carousel-inner > .item > a > img {
@@ -72,17 +72,17 @@
  		<div class="row">
     		<div class="col-xs-4">
       			<a href="ProductInfo?p=tabala" class="thumbnail"> 
-        			<img src="<c:url value="/resources/images/tabala.jpg" />" style="width:300px;height:150px" alt="img1"/>
+        			<img src="<c:url value="/resources/images/102.jpg" />" style="width:300px;height:150px" alt="img1"/>
       			</a>
     		</div>
     		<div class="col-xs-4">
       			<a href="ProductInfo?p=gitar" class="thumbnail">
-        			<img src="<c:url value="/resources/images/gitar.jpg" />" style="width:300px;height:150px" alt="img2"/>
+        			<img src="<c:url value="/resources/images/101.jpg" />" style="width:300px;height:150px" alt="img2"/>
       			</a>
     		</div>
     		<div class="col-xs-4">
       			<a href="ProductInfo?p=drums" class="thumbnail">
-        			<img src="<c:url value="/resources/images/drums.jpg" />" style="width:300px;height:150px" alt="img3"/>
+        			<img src="<c:url value="/resources/images/103.jpg" />" style="width:300px;height:150px" alt="img3"/>
       			</a>
     		</div>
   		</div>
